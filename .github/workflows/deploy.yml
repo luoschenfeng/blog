@@ -20,11 +20,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: pnpm
-      - name: install dependencies
-        run: pnpm install
-      - name: Build
-        run: pnpm run build
+      - name: Install PNPM
+        run: npm i -g pnpm
+      - name: install & build
+        run: pnpm i && pnpm build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
