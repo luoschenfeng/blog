@@ -1,21 +1,3 @@
-# typescript
-
-ccs 包含以下类目
-
-- [class](./class.md)
-
-- [function](./function.md)
-
-- [condition](./condition.md)
-
-- [everyDayType](./everyDayType.md)
-
-- [typeof](./typeof.md)
-
-- [union](./union.md)
-
-- [utility](./utility.md)
-
 ## `type` 与 `interface` 的区别
 
 两者可以互相被代替，唯一的区别是 type 不能被重新定义，而 interface 可以被重新定义，来给同名的 interface 添加了新属性

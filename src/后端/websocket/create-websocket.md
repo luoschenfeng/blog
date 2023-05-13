@@ -147,4 +147,4 @@ class Websocket extends EventEmitter {
 
 服务端发送的数据是不用掩码处理，以上代码略过了接受到浏览器掩码数据的解析，无论浏览器发送什么数据过来，都以字符串 *def* 作为回应，浏览器通过 message 事件接收到服务端响应的数据，结果如下。
 
-![websocket result](/blog/images/websocket-result.png)
+![websocket result](/images/websocket-result.png)

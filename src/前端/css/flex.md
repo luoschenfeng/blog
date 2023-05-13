@@ -29,7 +29,7 @@ css2 通过 inline 、block 、tabel 、position 这四种模型进行网页布�
 
 ### 图示
 
-![flex-direction-terms](/blog/images/flex-direction-terms.svg)
+![flex-direction-terms](/images/flex-direction-terms.svg)
 
 `main axis` (main dimension) 为 **主轴** ， **flex元素** 沿着 **主轴** 从 `main-start` 开始平铺，一直到 `main-end` 结束； `cross axis` (cross dimension) 为 **交叉轴** (也叫副轴)，垂直于 **主轴** ，**flex元素** 从 `cross-start` 开始放置， 一直到 `cross-end` 结束； `main size` 为 **主轴** 方向上的宽度或高度，`cross size` 为 **交叉轴** 方向上的高度或宽度。 **主轴** 方向上有 max-width 和 min-width 属性， **交叉轴** 方向上有 max-height 和 min-height 属性。
 
@@ -81,7 +81,7 @@ css2 通过 inline 、block 、tabel 、position 这四种模型进行网页布�
 
 `flex-direction` 属性设置 `flex容器` 的 **main axis** 的方向，从而指定了 `flex item` 的布局方向。
 
-![flex-direction](/blog/images/flex-direction.png)
+![flex-direction](/images/flex-direction.png)
 
 - **row**
 
@@ -107,7 +107,7 @@ css2 通过 inline 、block 、tabel 、position 这四种模型进行网页布�
 
 `flex-wrap` 属性设置 `flex容器` 是否多行显示。`cross axis` 的方向决定了新行的堆叠方向
 
-![flex-wrap](/blog/images/flex-wrap.png)
+![flex-wrap](/images/flex-wrap.png)
 
 - **no-wrap**
 

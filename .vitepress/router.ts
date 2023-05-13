@@ -79,6 +79,7 @@ export const sidebar = {
     { text: 'typeof', link: '/前端/typescript/typeof.md' },
     { text: 'union', link: '/前端/typescript/union.md' },
     { text: 'utility', link: '/前端/typescript/utility.md' },
+    { text: 'other', link: '/前端/typescript/other.md' },
   ],
   '/前端/vue3/': [
     { text: 'reactive', link: '/前端/vue3/reactive.md' },

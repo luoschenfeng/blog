@@ -10,7 +10,7 @@ PWA 有以下特性：
 
 - 可靠性等优点（快，方便，沉浸）。
 
-![PWA capable](/blog/images/pwa-capable.svg)
+![PWA capable](/images/pwa-capable.svg)
 
 ## 商业价值
 
@@ -161,13 +161,13 @@ app 的名称，short_name  在 主屏、 启动时使用，name在安装的时�
 - `theme_color`
 
 设置工具栏的颜色
-![theme_color](/blog/images/pwa-theme-color.png)
+![theme_color](/images/pwa-theme-color.png)
 
 - `shortcuts`
 
 右键或长按 app 图标时，弹出的下拉任务菜单，是一个每项都是字典的数组，字典至少包含 `name` 和 `src`
 
-![shortcuts](/blog/images/pwa-shortcuts.png)
+![shortcuts](/images/pwa-shortcuts.png)
 
 官方说明，[请看这里](https://web.dev/app-shortcuts/)
 
