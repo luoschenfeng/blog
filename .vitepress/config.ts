@@ -19,6 +19,14 @@ export default defineConfig({
         rel: 'stylesheet'
       }
     ],
+    [
+      'link',
+      {
+        href:
+          'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css',
+        rel: 'stylesheet'
+      }
+    ],
   ],
   lastUpdated: true,
   themeConfig: {

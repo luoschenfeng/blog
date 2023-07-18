@@ -69,6 +69,7 @@ export const sidebar = {
     { text: 'typedArray', link: '/前端/javascript/typedArray.md' },
     { text: 'encode', link: '/前端/javascript/encode.md' },
     { text: 'generator', link: '/前端/javascript/generator.md' },
+    { text: 'float', link: '/前端/javascript/float.md' },
   ],
   '/前端/typescript/': [
     { text: 'everyDayType', link: '/前端/typescript/everyDayType.md' },
