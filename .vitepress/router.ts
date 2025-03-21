@@ -11,6 +11,7 @@ export const nav = [
       { text: 'npm', link: '/前端/npm/workspace.md' },
       { text: 'scss', link: '/前端/scss/mate.md' },
       { text: 'PWA', link: '/前端/PWA/outline.md' },
+      { text: 'web', link: '/前端/web/web安全.md' },
     ]
   },
   {
@@ -118,6 +119,10 @@ export const sidebar = {
   ],
   '/前端/PWA/': [
     { text: 'outline', link: '/前端/PWA/outline.md' },
+  ],
+  '/前端/web/': [
+    { text: 'web安全', link: '/前端/web/web安全.md' },
+    { text: '单点登录', link: '/前端/web/单点登录.md' },
   ],
   // 后端
   '/后端/koa/': [
