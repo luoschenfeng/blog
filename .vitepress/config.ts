@@ -49,7 +49,7 @@ export default defineConfig({
     lineNumbers: true,
     config: (md) => {
       // use more markdown-it plugins!
-      md.use(require('markdown-it-katex'))
+      md.use(() => import('markdown-it-katex' as any))
     }
   }
 })
