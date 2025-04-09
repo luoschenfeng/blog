@@ -61,8 +61,7 @@ git push
 # git pull
 
 
-# 为所有分支设置
-git config --global pull.rebase true
+为所有分支设置  git config --global pull.rebase true
 
 这样 pull 的时类似于
 git fetch origin
