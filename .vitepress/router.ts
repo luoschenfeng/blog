@@ -116,6 +116,7 @@ export const sidebar = {
   ],
   '/前端/npm/': [
     { text: 'workspace', link: '/前端/npm/workspace.md' },
+    { text: '属性', link: '/前端/npm/属性.md' },
   ],
   '/前端/PWA/': [
     { text: 'outline', link: '/前端/PWA/outline.md' },
